@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24636D9D18CDFCB800545A31 /* GIXMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 24636D9218CDFCB800545A31 /* GIXMPP.m */; };
+		24636D9E18CDFCB800545A31 /* GIXMPP+StreamDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24636D9418CDFCB800545A31 /* GIXMPP+StreamDelegate.m */; };
+		24636D9F18CDFCB800545A31 /* GIXMPPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 24636D9618CDFCB800545A31 /* GIXMPPConstants.m */; };
+		24636DA018CDFCB800545A31 /* GIXMPPCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 24636D9818CDFCB800545A31 /* GIXMPPCredentials.m */; };
+		24636DA118CDFCB800545A31 /* NSMutableDictionary+SafeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 24636D9A18CDFCB800545A31 /* NSMutableDictionary+SafeValue.m */; };
+		24636DA218CDFCB800545A31 /* XMPPMessage+DictionaryRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 24636D9C18CDFCB800545A31 /* XMPPMessage+DictionaryRepresentation.m */; };
 		24C786CF18CB325600A140A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C786CE18CB325600A140A1 /* Foundation.framework */; };
 		24C786D118CB325600A140A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C786D018CB325600A140A1 /* CoreGraphics.framework */; };
 		24C786D318CB325600A140A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C786D218CB325600A140A1 /* UIKit.framework */; };
@@ -21,12 +27,6 @@
 		24C786F018CB325600A140A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C786D218CB325600A140A1 /* UIKit.framework */; };
 		24C786F818CB325600A140A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24C786F618CB325600A140A1 /* InfoPlist.strings */; };
 		24C786FA18CB325600A140A1 /* GIXMPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C786F918CB325600A140A1 /* GIXMPPTests.m */; };
-		24C7870C18CB327300A140A1 /* GIXMPP+StreamDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C7870518CB327300A140A1 /* GIXMPP+StreamDelegate.m */; };
-		24C7870D18CB327300A140A1 /* GIXMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C7870718CB327300A140A1 /* GIXMPP.m */; };
-		24C7870E18CB327300A140A1 /* GIXMPPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C7870918CB327300A140A1 /* GIXMPPConstants.m */; };
-		24C7870F18CB327300A140A1 /* GIXMPPCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C7870B18CB327300A140A1 /* GIXMPPCredentials.m */; };
-		24C7871218CB503C00A140A1 /* XMPPMessage+DictionaryRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C7871118CB503C00A140A1 /* XMPPMessage+DictionaryRepresentation.m */; };
-		24C7871518CB529400A140A1 /* NSMutableDictionary+SafeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C7871418CB529400A140A1 /* NSMutableDictionary+SafeValue.m */; };
 		E2FD193FDC9D4EFCABADB075 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BC64DEFD0644CB8E28774D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24636D9118CDFCB800545A31 /* GIXMPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIXMPP.h; path = Classes/GIXMPP.h; sourceTree = SOURCE_ROOT; };
+		24636D9218CDFCB800545A31 /* GIXMPP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIXMPP.m; path = Classes/GIXMPP.m; sourceTree = SOURCE_ROOT; };
+		24636D9318CDFCB800545A31 /* GIXMPP+StreamDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GIXMPP+StreamDelegate.h"; path = "Classes/GIXMPP+StreamDelegate.h"; sourceTree = SOURCE_ROOT; };
+		24636D9418CDFCB800545A31 /* GIXMPP+StreamDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GIXMPP+StreamDelegate.m"; path = "Classes/GIXMPP+StreamDelegate.m"; sourceTree = SOURCE_ROOT; };
+		24636D9518CDFCB800545A31 /* GIXMPPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIXMPPConstants.h; path = Classes/GIXMPPConstants.h; sourceTree = SOURCE_ROOT; };
+		24636D9618CDFCB800545A31 /* GIXMPPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIXMPPConstants.m; path = Classes/GIXMPPConstants.m; sourceTree = SOURCE_ROOT; };
+		24636D9718CDFCB800545A31 /* GIXMPPCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIXMPPCredentials.h; path = Classes/GIXMPPCredentials.h; sourceTree = SOURCE_ROOT; };
+		24636D9818CDFCB800545A31 /* GIXMPPCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIXMPPCredentials.m; path = Classes/GIXMPPCredentials.m; sourceTree = SOURCE_ROOT; };
+		24636D9918CDFCB800545A31 /* NSMutableDictionary+SafeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+SafeValue.h"; path = "Classes/NSMutableDictionary+SafeValue.h"; sourceTree = SOURCE_ROOT; };
+		24636D9A18CDFCB800545A31 /* NSMutableDictionary+SafeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+SafeValue.m"; path = "Classes/NSMutableDictionary+SafeValue.m"; sourceTree = SOURCE_ROOT; };
+		24636D9B18CDFCB800545A31 /* XMPPMessage+DictionaryRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+DictionaryRepresentation.h"; path = "Classes/XMPPMessage+DictionaryRepresentation.h"; sourceTree = SOURCE_ROOT; };
+		24636D9C18CDFCB800545A31 /* XMPPMessage+DictionaryRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XMPPMessage+DictionaryRepresentation.m"; path = "Classes/XMPPMessage+DictionaryRepresentation.m"; sourceTree = SOURCE_ROOT; };
 		24C786CB18CB325600A140A1 /* GIXMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIXMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C786CE18CB325600A140A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24C786D018CB325600A140A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,18 +72,6 @@
 		24C786F518CB325600A140A1 /* GIXMPPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIXMPPTests-Info.plist"; sourceTree = "<group>"; };
 		24C786F718CB325600A140A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24C786F918CB325600A140A1 /* GIXMPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIXMPPTests.m; sourceTree = "<group>"; };
-		24C7870418CB327300A140A1 /* GIXMPP+StreamDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GIXMPP+StreamDelegate.h"; sourceTree = "<group>"; };
-		24C7870518CB327300A140A1 /* GIXMPP+StreamDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GIXMPP+StreamDelegate.m"; sourceTree = "<group>"; };
-		24C7870618CB327300A140A1 /* GIXMPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIXMPP.h; sourceTree = "<group>"; };
-		24C7870718CB327300A140A1 /* GIXMPP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIXMPP.m; sourceTree = "<group>"; };
-		24C7870818CB327300A140A1 /* GIXMPPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIXMPPConstants.h; sourceTree = "<group>"; };
-		24C7870918CB327300A140A1 /* GIXMPPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIXMPPConstants.m; sourceTree = "<group>"; };
-		24C7870A18CB327300A140A1 /* GIXMPPCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIXMPPCredentials.h; sourceTree = "<group>"; };
-		24C7870B18CB327300A140A1 /* GIXMPPCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIXMPPCredentials.m; sourceTree = "<group>"; };
-		24C7871018CB503C00A140A1 /* XMPPMessage+DictionaryRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XMPPMessage+DictionaryRepresentation.h"; sourceTree = "<group>"; };
-		24C7871118CB503C00A140A1 /* XMPPMessage+DictionaryRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XMPPMessage+DictionaryRepresentation.m"; sourceTree = "<group>"; };
-		24C7871318CB529400A140A1 /* NSMutableDictionary+SafeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+SafeValue.h"; sourceTree = "<group>"; };
-		24C7871418CB529400A140A1 /* NSMutableDictionary+SafeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+SafeValue.m"; sourceTree = "<group>"; };
 		91BC64DEFD0644CB8E28774D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B721AB5572074CF987990E4B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -180,18 +180,18 @@
 		24C7870318CB327300A140A1 /* XMPP */ = {
 			isa = PBXGroup;
 			children = (
-				24C7870418CB327300A140A1 /* GIXMPP+StreamDelegate.h */,
-				24C7870518CB327300A140A1 /* GIXMPP+StreamDelegate.m */,
-				24C7870618CB327300A140A1 /* GIXMPP.h */,
-				24C7870718CB327300A140A1 /* GIXMPP.m */,
-				24C7870818CB327300A140A1 /* GIXMPPConstants.h */,
-				24C7870918CB327300A140A1 /* GIXMPPConstants.m */,
-				24C7870A18CB327300A140A1 /* GIXMPPCredentials.h */,
-				24C7870B18CB327300A140A1 /* GIXMPPCredentials.m */,
-				24C7871018CB503C00A140A1 /* XMPPMessage+DictionaryRepresentation.h */,
-				24C7871118CB503C00A140A1 /* XMPPMessage+DictionaryRepresentation.m */,
-				24C7871318CB529400A140A1 /* NSMutableDictionary+SafeValue.h */,
-				24C7871418CB529400A140A1 /* NSMutableDictionary+SafeValue.m */,
+				24636D9118CDFCB800545A31 /* GIXMPP.h */,
+				24636D9218CDFCB800545A31 /* GIXMPP.m */,
+				24636D9318CDFCB800545A31 /* GIXMPP+StreamDelegate.h */,
+				24636D9418CDFCB800545A31 /* GIXMPP+StreamDelegate.m */,
+				24636D9518CDFCB800545A31 /* GIXMPPConstants.h */,
+				24636D9618CDFCB800545A31 /* GIXMPPConstants.m */,
+				24636D9718CDFCB800545A31 /* GIXMPPCredentials.h */,
+				24636D9818CDFCB800545A31 /* GIXMPPCredentials.m */,
+				24636D9918CDFCB800545A31 /* NSMutableDictionary+SafeValue.h */,
+				24636D9A18CDFCB800545A31 /* NSMutableDictionary+SafeValue.m */,
+				24636D9B18CDFCB800545A31 /* XMPPMessage+DictionaryRepresentation.h */,
+				24636D9C18CDFCB800545A31 /* XMPPMessage+DictionaryRepresentation.m */,
 			);
 			path = XMPP;
 			sourceTree = "<group>";
@@ -329,15 +329,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24C7870F18CB327300A140A1 /* GIXMPPCredentials.m in Sources */,
+				24636DA018CDFCB800545A31 /* GIXMPPCredentials.m in Sources */,
+				24636D9D18CDFCB800545A31 /* GIXMPP.m in Sources */,
+				24636DA118CDFCB800545A31 /* NSMutableDictionary+SafeValue.m in Sources */,
 				24C786DF18CB325600A140A1 /* GIAppDelegate.m in Sources */,
-				24C7870D18CB327300A140A1 /* GIXMPP.m in Sources */,
-				24C7871518CB529400A140A1 /* NSMutableDictionary+SafeValue.m in Sources */,
-				24C7870E18CB327300A140A1 /* GIXMPPConstants.m in Sources */,
-				24C7870C18CB327300A140A1 /* GIXMPP+StreamDelegate.m in Sources */,
+				24636DA218CDFCB800545A31 /* XMPPMessage+DictionaryRepresentation.m in Sources */,
+				24636D9F18CDFCB800545A31 /* GIXMPPConstants.m in Sources */,
 				24C786E518CB325600A140A1 /* GIViewController.m in Sources */,
 				24C786DB18CB325600A140A1 /* main.m in Sources */,
-				24C7871218CB503C00A140A1 /* XMPPMessage+DictionaryRepresentation.m in Sources */,
+				24636D9E18CDFCB800545A31 /* GIXMPP+StreamDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
